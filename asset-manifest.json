@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/StyleMe/static/css/main.215786f2.css",
+    "main.js": "/StyleMe/static/js/main.b921794d.js",
+    "static/media/company.webp": "/StyleMe/static/media/company.8784a0f3fd2cb64f7252.webp",
+    "static/media/consult.avif": "/StyleMe/static/media/consult.4a64f5e44bf3bf1f6caf.avif",
+    "static/media/wardobe.webp": "/StyleMe/static/media/wardobe.7d3c9ea7418a1fc6d1e9.webp",
+    "static/media/bag.avif": "/StyleMe/static/media/bag.f06db69888cc3e94b930.avif",
+    "static/media/bg.avif": "/StyleMe/static/media/bg.c4c3e50bce6064b8521b.avif",
+    "index.html": "/StyleMe/index.html",
+    "main.215786f2.css.map": "/StyleMe/static/css/main.215786f2.css.map",
+    "main.b921794d.js.map": "/StyleMe/static/js/main.b921794d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.215786f2.css",
+    "static/js/main.b921794d.js"
+  ]
+}
