@@ -1,0 +1,51 @@
+/* src/components/Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 3px;
+    outline: auto;
+    height: 120px;
+    color: white;
+    background-color: rgb(118, 54, 229);
+  }
+  
+  .logo {
+    font-size: 4.2em;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin: 0 10px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav ul {
+      flex-direction: column;
+      display: none;
+    }
+  
+    .nav.active ul {
+      display: flex;
+    }
+  }
+  

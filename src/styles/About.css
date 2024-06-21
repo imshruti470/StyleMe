@@ -1,0 +1,81 @@
+/* src/components/AboutSection.css */
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+    
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-text h2 {
+    font-size: 3.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+  }
+  
+  .about-text p {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: black;
+  }
+  
+  .learn-more-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: rgb(118, 54, 229);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .learn-more-button:hover {
+    background-color: rgb(118, 54, 229);
+  }
+  
+  .about-image {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .about-text, .about-image {
+      flex: none;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .about-image img {
+      width: 100%;
+    }
+  }
+  
